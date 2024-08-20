@@ -44,3 +44,10 @@ The new folder structure is:
 
 [Developer account URL link](https://app-eu1.hubspot.com/developer/145236457)
 [Test account custom objects URL link](https://app-eu1.hubspot.com/contacts/145259092/objects/2-132551664/views/all/list
+
+## 4. Usage
+
+- Download the code from the following GitHub repo [JohannJvanVuuren-iwh-i-practicum]()
+- Run `npm intall` in the root folder
+- Create a `.env` in the root folder with a valid private access token of an app in a HubSpot account and the `PORT=3000` line
+- From the root folder type `npm run start`

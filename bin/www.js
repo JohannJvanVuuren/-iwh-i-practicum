@@ -5,4 +5,4 @@ import app from '../app.js';
 const port = process.env.PORT || 3000;
 
 // Localhost to listen on
-app.listen(port, () => console.log(`Server is running and listening on port ${port}`));
+app.listen(port, () => console.log(`Server is running and Listening on: http//localhost:${port}`));

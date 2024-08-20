@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        title= `${title}`
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        .custom-pets
+            h1.custom-pets__heading Custom Object
+            h2.custom-pets__subheading Pets
+            a.custom-pets__update-link(href='/update-cobj') Add to / Update this table
+            table.custom-pets__table
+                tr.custom-pets__table__header-row
+                    th.custom-pets__table__heading Name
+                    th.custom-pets__table__heading Breed
+                    th.custom-pets__table__heading Species
+                each customPet in data
+                    tr.custom-pets__table__row
+                        td.custom-pets__table__cell #{customPet.properties.pet_name}
+                        td.custom-pets__table__cell #{customPet.properties.pet_breed}
+                        td.custom-pets__table__cell #{customPet.properties.pet_species}
+
