@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url'
 
 //Import of routes
 import getCustomObjectsRoute  from "./routes/getCustomObjects.js";
+import updatesRoutes from "./routes/updateCustomObjects.js";
 
 // Instantiation of the express application
 const app = express();
@@ -25,5 +26,6 @@ app.use(express.urlencoded({ extended: true }));
 
 // Registration of routes
 app.use('/', getCustomObjectsRoute);
+app.use('/', updatesRoutes);
 
 export default app;

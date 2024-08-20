@@ -1,0 +1,35 @@
+.updates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.updates__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.updates__form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.updates__form-control input {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.updates__form-control-btn  {
+  display: grid;
+}
+
+.updates__form-control-btn input[type="submit"] {
+  place-self: flex-end;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+}

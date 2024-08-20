@@ -5,5 +5,7 @@
 @import './base/_reset.css';
 
 @import './components/_petsTable.css';
+@import './components/_updateForm.css';
 
 @import './layout/_petsTable.css';
+@import './layout/_updateForm.css';

@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        title= `${title}`
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        .updates
+            h1.updates__heading #{title}
+            a.updates__homepage-link(href="/") Homepage
+            form.updates__form(method="POST")
+                .updates__form-control
+                    label(for="pet-name") Pet Name
+                    input(type="text" name="pet_name" id="pet-name" required)
+                .updates__form-control
+                    label(for="pet-breed") Pet Breed
+                    input(type="text" name="pet_breed" id="pet-breed" required)
+                .updates__form-control
+                    label(for="pet-species") Pet Species
+                    input(type="text" name="pet_species" id="pet-species" required)
+                .updates__form-control-btn
+                    input(type="submit" value="Submit")
