@@ -47,7 +47,7 @@ The new folder structure is:
 
 [Developer account URL link](https://app-eu1.hubspot.com/developer/145236457)  
 [Test account custom objects URL link](https://app-eu1.hubspot.com/contacts/145259092/objects/2-132551664/views/all/list)  
-[JohannJvanVuuren-iwh-i-practicum GitHub repo]()  
+[JohannJvanVuuren-iwh-i-practicum GitHub repo](https://github.com/JohannJvanVuuren/-iwh-i-practicum)  
 
 ## 4. Usage
 
