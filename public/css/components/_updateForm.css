@@ -10,12 +10,12 @@
 }
 
 .updates__homepage-link {
+  font-size: 1.5rem;
   padding: 1rem 2rem;
   background-color: var(--forest-green);
   text-transform: uppercase;
   text-decoration: none;
   color: var(--charcoal-off-white);
-  font-weight: 700;
   letter-spacing: 0.15rem;
   box-shadow: 3px 3px 9px var(--shadow);
   margin: 3rem;
