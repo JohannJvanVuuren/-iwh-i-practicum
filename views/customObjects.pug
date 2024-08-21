@@ -1,0 +1,28 @@
+doctype html
+html
+    head
+        // Interpolation of title
+        title= `${title}`
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        .custom-pets
+            h1.custom-pets__heading Custom Object
+            h2.custom-pets__subheading Pets
+            // Link to the /object-cobj get route
+            a.custom-pets__update-link(href='./update-cobj') Add to this table
+            // Setup of the table needed to render the data
+            table.custom-pets__table
+                tr.custom-pets__table__header-row
+                    th.custom-pets__table__heading Name
+                    th.custom-pets__table__heading Breed
+                    th.custom-pets__table__heading Species
+                // Loop through the data received from the get route that contains individual records of the
+                // custom object
+                each customPet in data
+                    tr.custom-pets__table__row
+                        // Interpolation of the specific data points into a table
+                        td.custom-pets__table__cell #{customPet.properties.pet_name}
+                        td.custom-pets__table__cell #{customPet.properties.pet_breed}
+                        td.custom-pets__table__cell #{customPet.properties.pet_species}
+

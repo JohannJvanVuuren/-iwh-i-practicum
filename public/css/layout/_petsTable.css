@@ -1,0 +1,17 @@
+/* Layout and positioning of the table that displays records of the custom type */
+.custom-pets {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding-top: 3rem;
+  width: 100vw;
+}
+
+/* Positioning of the headings and elements in the table cells */
+.custom-pets__table__heading,
+.custom-pets__table__cell {
+  padding: 1.5rem;
+}

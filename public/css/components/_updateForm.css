@@ -1,0 +1,57 @@
+/* Styling of the new record submission form */
+
+/* Styling of the heading */
+.updates__heading {
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding: 3rem 0;
+  text-align: center;
+  text-shadow: 3px 3px 9px var(--shadow);
+  text-transform: uppercase;
+  word-spacing: .25rem;
+}
+
+/* Styling of the link to return to the Homepage as a button */
+.updates__homepage-link {
+  background-color: var(--forest-green);
+  border-radius: 0.25rem;
+  box-shadow: 3px 3px 9px var(--shadow);
+  color: var(--charcoal-off-white);
+  font-size: 1.5rem;
+  letter-spacing: 0.15rem;
+  margin: 3rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Styling of the input field and assosciated labels */
+.updates__form-control label {
+  color: var(--forest-green);
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.updates__form-control input {
+  color: var(--charcoal-dark);
+  font-size: 1.6rem;
+  outline: none;
+}
+
+/* Removal of outlines on focus */
+.updates__form-control input:focus {
+  outline: none;
+}
+
+/* Styling of the submit input field as a button */
+.updates__form-control-btn input[type='submit'] {
+  background-color: var(--forest-green);
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 3px 3px 9px var(--shadow);
+  color: var(--charcoal-off-white);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+/* layout of the update custom form */
+.updates {
+  align-items: center;
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.updates__form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Layout of the input field and associated labels of the form */
+.updates__form-control {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.updates__form-control input {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* Layout and spacing of the submit button at the bottom of the form */
+.updates__form-control-btn  {
+  display: grid;
+}
+
+.updates__form-control-btn input[type="submit"] {
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  place-self: flex-end;
+}
