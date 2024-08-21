@@ -1,35 +1,40 @@
+/* Styling of the table that display records of the custom object */
+
+/* Styling of the headings */
 .custom-pets__heading,
 .custom-pets__subheading {
   font-size: 3rem;
   font-weight: 100;
-  text-transform: uppercase;
   text-shadow: 2px 2px 6px var(--shadow);
+  text-transform: uppercase;
 }
 
 .custom-pets__subheading {
   font-size: 2rem;
 }
 
+/* Styling of the "Add to this table" link as a button */
 .custom-pets__update-link {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.5rem;
   background-color: var(--forest-green);
-  color: var(--charcoal-off-white);
   border-bottom: 2px solid var(--forest-green);
-  padding: 1rem 2rem;
   border-radius: 0.25rem;
   box-shadow: 3px 3px 9px var(--shadow);
+  color: var(--charcoal-off-white);
+  font-size: 1.5rem;
   margin: 3rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
+/* Styling of the table contents */
 .custom-pets__table__heading {
   font-size: 2rem;
 }
 
 .custom-pets__table__cell {
-  font-size: 1.6rem;
   border: 1px solid var(--charcoal-off-white);
+  font-size: 1.6rem;
 }
 
 .custom-pets__table__header-row {
